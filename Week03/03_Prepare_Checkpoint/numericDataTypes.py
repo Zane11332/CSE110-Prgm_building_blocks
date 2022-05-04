@@ -1,0 +1,16 @@
+print()
+age = input("How old are you? ")
+next_year_age = int(age) + 1
+print(f"On your next birthday, you will be {next_year_age}")
+print()
+egg_cartons = input("How many egg cartons do you have? ")
+egg_carton_int = int(egg_cartons)
+finnal_eggs = egg_carton_int * 12
+print(f"You have {finnal_eggs} eggs")
+print()
+cookies = input("How many cookies do you have? ")
+cookies_int = int(cookies)
+people = input("How many people are there? ")
+people_int = int(people)
+print(f"Each person may have {cookies_int / people_int} cookies")
+print()
