@@ -1,0 +1,21 @@
+import math
+
+print()
+side_length = float(input("What is the length of a side of the square in centimeters? "))
+print(f"The area of the square is: {side_length ** 2}")
+print(f"The area of the square in square centimeters is: {(side_length ** 2) / 100}")
+print(f"The area of the square in square meters is: {(side_length ** 2) / 10000}")
+rectangle_length = float(input("What is the length of rectangle? "))
+rectangle_width = float(input("What is the width of the rectangle? "))
+print(f"The area of the rectangle is: {rectangle_length * rectangle_width}")
+circle_radius = float(input("What is the radius of the circle? "))
+print(f"The area of the circle is: {math.pi * (circle_radius ** 2)}")
+print()
+
+print()
+one_size = float(input("What is the length of a side of the square? "))
+print(f"The area of the square with that length is: {one_size ** 2}")
+print(f"The area of the circle with that radius is: {math.pi * (one_size ** 2)}")
+print(f"The volume of the cube with that side length is: {one_size ** 3}")
+print(f"The area of the circle with that radius is: {(4/3 * math.pi) * (one_size ** 3)}")
+print()
