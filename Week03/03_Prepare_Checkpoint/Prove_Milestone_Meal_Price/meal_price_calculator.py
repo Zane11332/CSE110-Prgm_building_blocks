@@ -1,0 +1,17 @@
+print()
+child_meal = float(input("What is the price of a child's meal? "))
+adult_meal = float(input("What is the price of an adult's meal? "))
+num_child = int(input("How many children are there? "))
+num_adult = int(input("How many adults are there? "))
+sales_tax_input = float(input("What is the sales tax rate? "))
+subtotal = (num_child * child_meal) + (num_adult * adult_meal)
+sales_tax_calc = (subtotal * sales_tax_input) / 100
+final_total = subtotal + sales_tax_calc
+print()
+print(f"Subtotal: ${subtotal}")
+print(f"Sales Tax: ${sales_tax_calc}")
+print(f"Total: ${final_total}")
+print()
+pay_amount = float(input("What is the payment amount? "))
+print(f"Change: ${pay_amount  - final_total }")
+print()
