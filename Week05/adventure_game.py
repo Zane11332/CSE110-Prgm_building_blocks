@@ -20,16 +20,16 @@ if choice_01 == "enter":
         print()
 
 elif choice_01 == "look":
-    choice_01_02 = input(f"You look around and find that there are some unlit torches on the wall of the cave. Using your handy dandy lighter in your pocket you can LIGHT the torch or LEAVE it alone. ").lower()
-    if choice_01_02 == "light":
+    choice_02_01 = input(f"You look around and find that there are some unlit torches on the wall of the cave. Using your handy dandy lighter in your pocket you can LIGHT the torch or LEAVE it alone. ").lower()
+    if choice_02_01 == "light":
         print("You light the torch and proceed into the cave. You see a small shiny object glint in the light of your torch. The Ring you came looking for was just right there good on you for lighting your torch. You grab the ring and get out of there. ")
-    elif choice_01_02 == "leave":
-        choice_01_02_03 = input("As you leave you have an idea. What if i had just go in real quick? You think i could go BACK just go HOME or a DIFFERENT adventure. ").lower()
-        if choice_01_02_03 == "home":
+    elif choice_02_01== "leave":
+        choice_02_02_03 = input("As you leave you have an idea. What if i had just go in real quick? You think i could go BACK just go HOME or a DIFFERENT adventure. ").lower()
+        if choice_02_02_03 == "home":
             print("As you leave you hear a terrible sound from inside the cave. Good choice it sounded hungry. ")
-        elif choice_01_02_03 == "back":
+        elif choice_02_02_03 == "back":
             print("You head back and strol right on into the cave no fear. Something moves in the back so you jump to the side of the cave finding a door. You enter and fing all the gold you could ever want. GG you somehow won. ")
-        elif choice_01_02_03 == "different":
+        elif choice_02_02_03 == "different":
             print("You leave and decided caves are not for you. Someone back in town said that 'spelunking' was rather fun so you might try that. ")
         else:
             print("You can't do that. RESTART. ")
@@ -37,6 +37,3 @@ elif choice_01 == "look":
     else:
         print("You can't type that. Try again.")
         print()
-
-    
-
