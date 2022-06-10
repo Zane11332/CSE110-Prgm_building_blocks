@@ -21,16 +21,15 @@ guess = input("\nWhat is your guess? ").lower()
 if guess != random_secret_word:
     while guess != random_secret_word:
         print(f"Your hint is: ", end="")
-        for j, letter in enumerate(guess):
-            while letter in guess:
-                for i, secret_word_letters in enumerate(random_secret_word):
-                    if letter == secret_word_letters:
-                        print(f"{letter}", end="")
-                        break
-                if letter != secret_word_letters:
-                    print(f"_ ", end="")
-                    break
-                break  
+        for i, secret_letter in enumerate(random_secret_word):
+            if guess == secret_letter:
+                print(f"{guess}")
+            else:
+                print(f"_ ", end="")
+        for letter in guess:
+            if letter == secret_letter:
+                print(f"{letter}")
+                       
         guess = input("\nWhat is your guess? ").lower()
         count = count + 1
 
