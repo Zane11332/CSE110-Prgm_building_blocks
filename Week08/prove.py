@@ -25,7 +25,10 @@ if guess != random_secret_word:
             while letter in guess:
                 for i, secret_word_letters in enumerate(random_secret_word):
                     if letter == secret_word_letters:
-                        print(f"{letter}", end="")
+                        if i == j:
+                            print(f"{letter.capitalize()} ", end="")
+                            break
+                        print(f"{letter} ", end="")
                         break
                 if letter != secret_word_letters:
                     print(f"_ ", end="")
