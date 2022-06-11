@@ -6,7 +6,7 @@ count = 0
 length = 0
 print()
 random_secret_word = random.choice(secret_word).lower()
-print(f"random_secret_word: ", random_secret_word)
+# print(f"random_secret_word: ", random_secret_word) # uncomment this on to see random word
 print()
 print("Welcome to the word guessing game!\n")
 
