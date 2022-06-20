@@ -1,3 +1,10 @@
-dolls = 5
+my_list = [2,3,4,5]
+smallest = 10
 
-print("There are " , dolls , " dolls")
+for value in my_list:
+
+    if value < smallest:
+
+        smallest = value
+
+print(f"The smallest is {smallest}")
