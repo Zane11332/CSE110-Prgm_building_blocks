@@ -32,7 +32,6 @@ while enter_list == True:
         for i in range(len(prices)):
             total += prices[i]
         print(f"The total price of the items in the shopping cart is ${total}")
-
     elif choice == "5":
         print(f"Thank you. Goodbye.")
         enter_list = False
