@@ -37,12 +37,9 @@ for line in lines:
         if year_e_max < life_expectancy:
             year_e_max = life_expectancy
             name_max = entity
-            year_max = year
-
         elif year_e_min > life_expectancy:
             year_e_min = life_expectancy
             name_min = entity
-            year_min = year
 average = total_life / year_amount   
     # life_e_max = max(life_e_max, life_expectancy)
     # life_e_min = min(life_e_min, life_expectancy)
