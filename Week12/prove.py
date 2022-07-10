@@ -41,10 +41,6 @@ for line in lines:
             year_e_min = life_expectancy
             name_min = entity
 average = total_life / year_amount   
-    # life_e_max = max(life_e_max, life_expectancy)
-    # life_e_min = min(life_e_min, life_expectancy)
-    # 
-
 
 print(f"The overall max life expectancy is: {life_e_max} from {name_max} in {year_max}")
 print(f"The overall min life expectancy is: {life_e_min} from {name_min} in {year_min}")
