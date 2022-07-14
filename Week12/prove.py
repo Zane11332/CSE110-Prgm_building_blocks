@@ -21,6 +21,8 @@ for line in lines:
     entity = values[0]
     code = values[1]
     life_expectancy = float(values[3])
+
+    
     if life_e_max < life_expectancy:
         life_e_max = life_expectancy
         name_max = entity
